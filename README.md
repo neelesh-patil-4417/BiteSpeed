@@ -47,7 +47,7 @@ This project is designed to help Bitespeed identify and track a customer's ident
 
 ## Endpoints
 
-### POST /identify
+### POST /api/identify
 
 **Description:** Receives a JSON body containing an email and/or phone number and returns the consolidated contact information.
 

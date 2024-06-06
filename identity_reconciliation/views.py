@@ -4,11 +4,11 @@ from .models import Contact
 from .serializers import ContactSerializer
 from django.db.models import Q
 
-@api_view(['GET'])
+@api_view(['HEAD','GET'])
 def home(request):
     return Response({"message":"/api/identify/ is the end point"})
 
-@api_view(['POST'])
+@api_view(['HEAD','POST'])
 def identify(request):
     email = request.data.get('email')
     phoneNumber = request.data.get('phoneNumber')

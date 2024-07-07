@@ -49,6 +49,8 @@ This project is designed to help Bitespeed identify and track a customer's ident
 
 ### POST /api/identify
 
+## Public API for test -  http://15.207.230.178/api/identify/ 
+
 **Description:** Receives a JSON body containing an email and/or phone number and returns the consolidated contact information.
 
 **Case 1** When a new entry is added
